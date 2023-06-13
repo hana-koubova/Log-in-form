@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">nodemon 
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Login Page</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div>
+        <h1>Log In</h1>
+        <form action="/secret-info" method="POST">
+            <input id="usernameUser" type="text" name="username" placeholder="username" required>
+            <input id="passwordUser" type="password" name="password" placeholder="password" required type="password">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <p>This is a testing log in page. To Log in and get secret information, use username: <span>Hana</span> and password: <span>This@is*password487</span></p>
+</body>
+<script src="/server.js"></script>
+</html>
